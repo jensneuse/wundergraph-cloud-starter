@@ -5,18 +5,5 @@ query ($city: String!) {
             lon
         }
         country
-        weather {
-            temperature {
-                actual
-                feelsLike
-                min
-                max
-            }
-            summary {
-                title
-                description
-                icon
-            }
-        }
     }
 }
