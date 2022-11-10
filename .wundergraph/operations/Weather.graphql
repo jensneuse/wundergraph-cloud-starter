@@ -4,6 +4,18 @@ query ($city: String!) {
             lat
             lon
         }
-        country
+        weather {
+            temperature {
+                actual
+                feelsLike
+                min
+                max
+            }
+            summary {
+                title
+                description
+                icon
+            }
+        }
     }
 }
