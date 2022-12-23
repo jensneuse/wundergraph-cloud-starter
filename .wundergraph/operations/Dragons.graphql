@@ -8,6 +8,8 @@ query Dragons {
       }
       amount
       pods
+      fuel_1
+      fuel_2
     }
     # remove the comments to add thrusters to the query
     #      thrusters {
