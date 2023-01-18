@@ -1,4 +1,4 @@
-query Dragons {
+query Dragons @rbac(requireMatchAll: [admin]) {
   spacex_dragons {
     name
     active
@@ -6,10 +6,6 @@ query Dragons {
       thrust {
         kN
       }
-      amount
-      pods
-      fuel_1
-      fuel_2
     }
     # remove the comments to add thrusters to the query
     #      thrusters {
