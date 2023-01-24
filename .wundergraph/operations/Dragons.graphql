@@ -1,4 +1,4 @@
-query Dragons @rbac(requireMatchAll: [admin]) {
+query Dragons {
   spacex_dragons {
     name
     active
