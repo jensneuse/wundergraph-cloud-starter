@@ -1,16 +1,15 @@
 query Dragons {
-  spacex_dragons {
-    name
-    active
-    thrusters {
-      thrust {
-        kN
-      }
+    spacex_dragons {
+        name
+        active
+        thrusters {
+            thrust {
+                kN
+            }
+        }
+        thrusters {
+            amount
+            pods
+        }
     }
-    # remove the comments to add thrusters to the query
-    #      thrusters {
-    #          amount
-    #          pods
-    #      }
-  }
 }
