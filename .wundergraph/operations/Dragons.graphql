@@ -9,6 +9,7 @@ query Dragons {
         }
         thrusters {
             amount
+            pods
         }
     }
 }
