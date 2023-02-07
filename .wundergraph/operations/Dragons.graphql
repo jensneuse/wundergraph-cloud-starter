@@ -7,8 +7,5 @@ query Dragons {
                 kN
             }
         }
-        thrusters {
-            amount
-        }
     }
 }
