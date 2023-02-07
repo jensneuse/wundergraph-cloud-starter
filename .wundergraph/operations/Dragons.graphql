@@ -12,7 +12,6 @@ query Dragons {
             pods
             type
             fuel_1
-            fuel_2
         }
     }
 }
