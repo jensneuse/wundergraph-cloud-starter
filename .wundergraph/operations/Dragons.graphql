@@ -9,8 +9,6 @@ query Dragons {
         }
         thrusters {
             amount
-            fuel_1
-            fuel_2
         }
     }
 }
