@@ -11,6 +11,8 @@ query Dragons {
             amount
             pods
             type
+            fuel_1
+            fuel_2
         }
     }
 }
