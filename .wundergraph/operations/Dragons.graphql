@@ -3,6 +3,5 @@ query Dragons {
         name
         active
         id
-        description
     }
 }
