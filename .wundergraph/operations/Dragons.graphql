@@ -3,5 +3,6 @@ query Dragons {
         name
         active
         active
+        crew_capacity
     }
 }
