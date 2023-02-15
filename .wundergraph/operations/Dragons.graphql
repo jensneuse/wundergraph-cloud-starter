@@ -2,13 +2,5 @@ query Dragons {
     spacex_dragons {
         name
         active
-        active
-        crew_capacity
-        diameter {
-            feet
-            meters
-        }
-        dry_mass_kg
-        dry_mass_lb
     }
 }
