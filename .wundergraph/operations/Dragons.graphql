@@ -4,5 +4,9 @@ query Dragons {
         active
         active
         crew_capacity
+        diameter {
+            feet
+            meters
+        }
     }
 }
