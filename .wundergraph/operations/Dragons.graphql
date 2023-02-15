@@ -8,5 +8,7 @@ query Dragons {
             feet
             meters
         }
+        dry_mass_kg
+        dry_mass_lb
     }
 }
