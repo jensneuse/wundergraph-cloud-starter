@@ -24,7 +24,7 @@ const countries = introspect.graphql({
   url: 'https://countries.trevorblades.com/',
 })
 
-const federatedApi = introspect.federation({
+/*const federatedApi = introspect.federation({
   apiNamespace: 'federated',
   upstreams: [
     {
@@ -40,11 +40,11 @@ const federatedApi = introspect.federation({
       url: 'https://wg-federation-demo-inventory.fly.dev/graphql',
     },
   ],
-});
+});*/
 
 // configureWunderGraph emits the configuration
 configureWunderGraphApplication({
-  apis: [spacex,weather,countries,federatedApi],
+  apis: [spacex,weather,countries],
   server,
   operations,
   codeGenerators: [
